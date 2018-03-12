@@ -4,6 +4,8 @@
 
 ComplexNumber::ComplexNumber()
 {
+	this->real = 0;
+	this->imag = 0;
 }
 
 ComplexNumber::ComplexNumber(int re, int im) {
